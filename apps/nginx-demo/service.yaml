@@ -4,9 +4,11 @@ metadata:
   name: nginx
   namespace: demo
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: nginx
   ports:
-    - port: 8080
+    - name: http
+      port: 8080
       targetPort: 8080
+      nodePort: 32080
