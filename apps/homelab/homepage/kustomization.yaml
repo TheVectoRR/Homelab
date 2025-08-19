@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: homepage
 resources:
   - ns.yaml
-  - deploy.yaml
+  - deployment.yaml
   - service.yaml
   - ingress.yaml
   - secret.yaml
