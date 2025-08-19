@@ -26,7 +26,7 @@ data:
             href: http://homepage.lan
             description: Your homelab landing page
         - HomeLab Wiki:
-            icon: book
+            icon: bookstack.png
             href: http://192.168.2.175:4292/
             description: Documentations about my homelab.
   widgets.yaml: |
