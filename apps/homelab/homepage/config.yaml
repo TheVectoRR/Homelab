@@ -13,14 +13,22 @@ data:
     theme: dark
   bookmarks.yaml: |
     - Dev:
-        - Kubernetes Docs: https://kubernetes.io/docs/home/
-        - FluxCD Docs: https://fluxcd.io/docs/
+        - Kubernetes Docs:
+            - href: https://kubernetes.io/docs/home/
+              description: Kubernetes documentation
+        - FluxCD Docs:
+            - href: https://fluxcd.io/docs/
+              description: Flux CD documentation
   services.yaml: |
     - Homelab:
         - Homepage:
             icon: homepage
             href: http://homepage.lan
             description: Your homelab landing page
+        - HomeLab Wiki:
+            icon: HomeLab Wiki
+            href: http://192.168.2.175:4292/
+            description: Documentations about my homelab.
   widgets.yaml: |
     - kubernetes:
         cluster: { show: true, cpu: true, memory: true, showLabel: true, label: "cluster" }
