@@ -5,6 +5,8 @@ metadata:
   namespace: homepage
   labels:
     app.kubernetes.io/name: homepage
+  annotations:
+    homepage/config-revision: "2"   # increment this number whenever config changes
 spec:
   replicas: 1
   revisionHistoryLimit: 3
