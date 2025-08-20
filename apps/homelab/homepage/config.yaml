@@ -23,7 +23,7 @@ data:
     - Homelab:
         - Homepage:
             icon: homepage
-            href: http://homepage.lan
+            href: http://homepage.homelab
             description: Your homelab landing page
         - HomeLab Wiki:
             icon: bookstack.png
